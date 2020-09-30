@@ -47,10 +47,15 @@ table {
 	border-spacing: 0;
 }
 /* reset end */
+
+@import url(https://fonts.google.com/specimen/Chelsea+Market);
+@import url(https://fonts.google.com/specimen/Roboto+Mono);
+
 *{
 	margin:40px;
 	margin-left:40px;
 	font-size: 25px;
+	border: 10px;
 }
 button.plan{
     background-color:#FF764E;
@@ -64,10 +69,11 @@ button.learn{
 button{
 	border-radius: 80px;
 }
-.welcome{
-	font-size: large;
-	
+.welcome h1{
+	font-family: Chelsea-Market;
+	font-size: 100px;
 }
+
 .midpagepic{
 	
     width:25%;
