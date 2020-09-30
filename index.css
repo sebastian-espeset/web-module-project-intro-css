@@ -47,16 +47,34 @@ table {
 	border-spacing: 0;
 }
 /* reset end */
+*{
+	margin:40px;
+	margin-left:40px;
+	font-size: 25px;
+}
 button.plan{
     background-color:#FF764E;
 }
 button.get{
-
+	background-color: #5ED3EB;
 }
 button.learn{
+	background-color: #FFCD69;
+}
+button{
+	border-radius: 80px;
+}
+.welcome{
+	font-size: large;
+	
+}
+.midpagepic{
+	
+    width:25%;
+    height:20%;
 
 }
-img{
+.valleypic{
     border:3px solid black;
     border-radius:300px;
     width:25%;
